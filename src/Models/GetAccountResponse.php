@@ -248,7 +248,7 @@ class GetAccountResponse implements JsonSerializable
 
     public function __construct()
     {
-        if (28 == func_num_args()) {
+        if (30 == func_num_args()) {
             $this->id = func_get_arg(0);
             $this->secretKey = func_get_arg(1);
             $this->publicKey = func_get_arg(2);
@@ -266,19 +266,19 @@ class GetAccountResponse implements JsonSerializable
             $this->boletoSettings = func_get_arg(14);
             $this->bankTransferSettings = func_get_arg(15);
             $this->walletSettings = func_get_arg(16);
-            $this->safetypaySettings = func_get_arg(15);
-            $this->facebookSettings = func_get_arg(16);
-            $this->generalSettings = func_get_arg(17);
-            $this->webhookSettings = func_get_arg(18);
-            $this->splitSettings = func_get_arg(19);
-            $this->subscriptionSettings = func_get_arg(20);
-            $this->orderSettings = func_get_arg(21);
-            $this->notificationSettings = func_get_arg(22);
-            $this->cancellationSettings = func_get_arg(23);
-            $this->renewCardSettings = func_get_arg(24);
-            $this->cashSettings = func_get_arg(25);
-            $this->checkoutSettings = func_get_arg(26);
-            $this->pixSettings = func_get_arg(27);
+            $this->safetypaySettings = func_get_arg(17);
+            $this->facebookSettings = func_get_arg(18);
+            $this->generalSettings = func_get_arg(19);
+            $this->webhookSettings = func_get_arg(20);
+            $this->splitSettings = func_get_arg(21);
+            $this->subscriptionSettings = func_get_arg(22);
+            $this->orderSettings = func_get_arg(23);
+            $this->notificationSettings = func_get_arg(24);
+            $this->cancellationSettings = func_get_arg(25);
+            $this->renewCardSettings = func_get_arg(26);
+            $this->cashSettings = func_get_arg(27);
+            $this->checkoutSettings = func_get_arg(28);
+            $this->pixSettings = func_get_arg(29);
         }
     }
 
