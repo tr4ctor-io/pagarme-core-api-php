@@ -33,6 +33,7 @@ class GetRecipientKycDetailsResponse implements JsonSerializable
         }
     }
 
+    #[\ReturnTypeWillChange]
     public function jsonSerialize()
     {
         $json = array();
