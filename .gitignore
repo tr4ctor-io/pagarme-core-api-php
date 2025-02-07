@@ -1,0 +1,7 @@
+/vendor
+Homestead.json
+Homestead.yaml
+.idea
+composer.lock
+composer.phar
+.vscode/

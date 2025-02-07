@@ -1,5 +1,5 @@
 {
-    "name": "pagarme/pagarme-php",
+    "name": "tr4ctor-io/pagarme-core-api-php",
     "type": "library",
     "description": "Pagarme API",
     "keywords": ["PagarmeCoreApi","API","SDK"],
